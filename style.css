@@ -1,0 +1,81 @@
+/* Define standard variables and values for website */
+.navlink {
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8ab1f5; }
+
+li {
+  float: left;
+  border-right: 1px solid #ffffff; }
+
+a {
+  text-decoration: none;
+  color: #66cc99; }
+
+a:hover {
+  color: #8ab1f5; }
+
+h1 {
+  color: #8ab1f5;
+  text-align: center;
+  font-weight: bold;
+  line-height: 2.7; }
+
+h4 {
+  color: #66cc99;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.5; }
+
+body {
+  font-family: 'Quicksand' !important;
+  color: #595959;
+  text-align: center;
+  line-height: 1.5; }
+
+.container {
+  background-color: #e6e6e6;
+  margin: 2%;
+  display: inline-block; }
+
+.box {
+  padding: 2%;
+  margin: 2%;
+  background-color: #ffffff; }
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  padding: 3%;
+  display: center;
+  display: block;
+  /* remove extra space below image */ }
+
+.thanks {
+  font-weight: bold; }
+
+#contact {
+  color: #595959;
+  padding: 2%;
+  font-weight: bold; }
+
+#nav {
+  font-weight: bold; }
+
+@media (min-width: 500px) {
+  body {
+    background-color: 255, 255, 255; } }
+@media (max-width: 499px) {
+  body {
+    background-color: #595959; } }
+
+/*# sourceMappingURL=style.css.map */

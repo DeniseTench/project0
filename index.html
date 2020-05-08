@@ -7,117 +7,23 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type='text/css' href="https://fonts.googleapis.com/css?family=Quicksand: 300,400,700,300italic">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>My Webpage</title>
   </head>
 
     <meta name="viewport" content="width=device-width, initial-scale1.0"> 
 
-<style>
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #8ab1f5;
-}
-
-li {
-  float: left;
-  border-right: 1px solid white;
-}
-
-li:last-child {
-  border-right: none;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-h1 {
-    color: #8ab1f5;
-    text-align: center;
-    font-weight: bold;
-    line-height: 2.7;
-    }
-
-h2 {
-    color: #66cc99;
-    text-align: center;
-    }
-
-h4 {
-    color: #66cc99;
-    text-align: center;
-    font-weight: bold;
-    line-height: 1.5;
-    }
-
-body {
-    font-family: 'Quicksand' !important;
-    color: #595959;
-    text-align: center;
-    line-height: 1.5;
-}
-
-.container {
-    body: #595959;
-}
-
-.box {
-    padding: 2%;
-    margin: 2%;
-    background-color: #e6e6e6;
-}
-
-a {
-    color: #66cc99; !important;
-}
-
-a:hover {
-  color:#8ab1f5;
-}
-
-img {
-        max-width: 100%;
-        max-height: 100%;
-        padding: 3%;
-        display: center;
-        display: block; /* remove extra space below image */
-    }
-
-@media (min-width: 500px) { 
-
-body { 
-background-color: 255, 255, 255; 
-} 
-
-} 
-
-@media (max-width: 499px) { 
-body { 
-background-color: blue; 
-} 
-
-} 
-</style>
-
     <body>
-
-<ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="minsk.html">Minsk</a></li>
-            <li><a href="lyon.html">Lyon</a></li>
-            <li><a href="budapest.html">Budapest</a></li>
-            <li><a href="berlin.html">Berlin</a></li>
-            <li><a href="belgrade.html">Belgrade</a></li>
-            <li><a href="hamburg.html">Hamburg</a></li>
+      <div id="nav"><ul>
+            <li><a href="index.html" class="navlink">Home</a></li> 
+            <li><a href="minsk.html" class="navlink">Minsk</a></li>
+            <li><a href="lyon.html" class="navlink">Lyon</a></li>
+            <li><a href="budapest.html" class="navlink">Budapest</a></li>
+            <li><a href="berlin.html" class="navlink">Berlin</a></li>
+            <li><a href="belgrade.html" class="navlink">Belgrade</a></li>
+            <li><a href="hamburg.html" class="navlink">Hamburg</a></li>
         </ul>
+      </div>
 
 <h1>Secrets of a Solo Traveller</h1>
         
@@ -159,7 +65,7 @@ background-color: blue;
     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 box">
     <h4><a href="belgrade.html">Belgrade's Boat Parties Start at Midnight</a></h4>
     <img src="belgrade.jpg">
-    <p>Someone burst into the hostel behind me and shouted <a href="belgrade.html">"boat party!"</a> We're leaving in ten." Ludicrous. I'd just arrived. It was past midnight. I hadn't unpacked. Did I go? Fuck yeah!</p>
+    <p>Someone burst into the hostel behind me and shouted <a href="belgrade.html">"boat party!"</a> We're leaving in ten." Ludicrous. I'd just arrived. It was past midnight. I hadn't unpacked. Did I go? Hell yeah!</p>
     </div>
 
     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 box">
@@ -170,7 +76,10 @@ background-color: blue;
   </div>  
 </div>
 
-<p>Thanks for stopping by. If you like this, then visit my blog <a href="https://www.travelartcoffee.com">travel.art.coffee</a>for more thoughts and tips on my three favourite things in life.</p>
-    </body>
+<p class="thanks">Thanks for stopping by. If you like this, then visit my blog <a href="https://www.travelartcoffee.com">travel.art.coffee</a> for more thoughts and tips on my three favourite things in life.</p></div>
+   
+<p><div id="contact"><a href="mailto:denise.tench@hotmail.co.uk">Contact me</a> for a chat about solo travel or to commission a feature.</div></p>
+
+</body>
 
 </html>

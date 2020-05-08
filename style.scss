@@ -1,0 +1,109 @@
+/* Define standard variables and values for website */
+
+$skyBlue: #8ab1f5;
+$darkGrey: #595959;
+$lightGrey: #e6e6e6; 
+$mintGreen: #66cc99;
+$plainWhite: #ffffff;
+$smallScreenB: #595959;
+
+.navlink {
+    color: $plainWhite;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: $skyBlue;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid $plainWhite;
+  }
+
+  a {
+
+    text-decoration: none;
+    color: $mintGreen;
+  }
+
+  a:hover {
+    color: $skyBlue;
+  }
+  
+h1 {
+    color: $skyBlue;
+    text-align: center;
+    font-weight: bold;
+    line-height: 2.7;
+    }
+
+h4 {
+    color: $mintGreen;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+    }
+
+body {
+    font-family: 'Quicksand' !important;
+    color: $darkGrey;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.container {
+    background-color: $lightGrey;
+    margin: 2%;
+    display: inline-block;
+  }
+
+.box {
+    padding: 2%;
+    margin: 2%;
+    background-color: $plainWhite;
+}
+
+img {
+        max-width: 100%;
+        max-height: 100%;
+        padding: 3%;
+        display: center;
+        display: block; /* remove extra space below image */
+    }
+
+.thanks {
+  font-weight: bold;
+}
+
+#contact {
+  color: $darkGrey;
+  padding: 2%; 
+  font-weight: bold; 
+}
+
+#nav {
+  font-weight: bold;
+}
+
+@media (min-width: 500px) { 
+
+body { 
+background-color: 255, 255, 255; 
+} 
+
+} 
+
+@media (max-width: 499px) { 
+body { 
+background-color: $smallScreenB;
+} 
+
+} 
