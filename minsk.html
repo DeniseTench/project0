@@ -55,6 +55,7 @@ body {
 
 a {
     color: #66cc99; !important;
+    font-weight: bold;
 }
 
 a:hover {
@@ -62,7 +63,6 @@ a:hover {
 }
 
 table {
-  width: 60%; 
   border: 1px solid#595959;
   margin: 2%;
 }
@@ -70,10 +70,32 @@ table {
 th {
   border: 1px solid#595959;
   padding: 2%;
+  text-align:center;
+  font-weight: normal;
 }
 
 td {
   border: 1px solid#595959;
+  padding: 2%;
+}
+
+#nav {
+  font-weight: bold;
+}
+
+table#table1 {
+    width:50%;
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+.home {
+  font-weight: bold;
+  padding: 1%;
+  margin: 1%
+}
+
+img {
   padding: 2%;
 }
 
@@ -82,51 +104,58 @@ td {
 body { 
 background-color: 255, 255, 255; 
 } 
-
 } 
 
 @media (max-width: 499px) { 
 body { 
 background-color: blue; 
 } 
-
 } 
+
 </style>
 
     <body>
 
-<ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="minsk.html">Minsk</a></li>
-            <li><a href="lyon.html">Lyon</a></li>
-            <li><a href="budapest.html">Budapest</a></li>
-            <li><a href="berlin.html">Berlin</a></li>
-            <li><a href="belgrade.html">Belgrade</a></li>
-            <li><a href="hamburg.html">Hamburg</a></li>
-        </ul>
+        <div id="nav"><ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="minsk.html">Minsk</a></li>
+          <li><a href="lyon.html">Lyon</a></li>
+          <li><a href="budapest.html">Budapest</a></li>
+          <li><a href="berlin.html">Berlin</a></li>
+          <li><a href="belgrade.html">Belgrade</a></li>
+          <li><a href="hamburg.html">Hamburg</a></li>
+      </ul>
+    </div>
 
 <h1>Don't Say Beetlejuice in Minsk</h1>
-        
-<p>Minsk.</p>
+      
+<p>When you're in Minsk, you really must visit Beetlejuice bar. Located a little outside the centre, this is worth the walk.</p>
+<p>Here you'll find a great range of drinks, indie and rock and roll music and laid-back crowd.</p> 
+<p>I highly recommend the potato pancakes, a Belarus favourite and massively tasty with extras such as sour cream and bacon. Enjoy!</p>
 
-<div style="overflow-x:auto;">
-    <table>
-    <tr>
-      <th>Firstname</th>
-      <th>Lastname</th>
-    </tr>
-    <tr>
-      <td>Jill</td>
-      <td>Smith</td>
-    </tr>
-    <tr>
-      <td>Eve</td>
-      <td>Jackson</td>
-    </tr>
-  </table>
-</div>
+<img src="minsk.jpg"width="50%" height="auto" align="center" style="margin: 2% 2%">
 
-<p>Thanks for stopping by. If you like this, then visit my blog <a href="https://www.travelartcoffee.com">travel.art.coffee</a>for more thoughts and tips on my three favourite things in life.</p>
-    </body>
+<table id="table1">
+  <tr>
+    <th>Address</th>
+    <th>Ulitsa Kalinina 7, Minsk, Belarus.</th>
+  </tr>
+  <tr>
+    <td>Opening Hours</td>
+    <td>Sun - Thu: 12pm - 12am<br>
+        Fri, Sat, Sun: 12pm - 2am
+    </td>
+  </tr>
+  <tr>
+    <td>Social</td>
+    <td><a href="https://www.facebook.com/cafebeetlejuice/?rf=218691388327856">Facebook</a>
+    </td>
+  </tr>
+</table>
+
+  <button class="home"><a href="index.html">Take Me Home!</a></button>
+
+</body>
 
 </html>
+

@@ -14,23 +14,36 @@
 
 <style>
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8ab1f5;
+}
+
+li {
+  float: left;
+  border-right: 1px solid white;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 h1 {
     color: #8ab1f5;
     text-align: center;
     font-weight: bold;
     line-height: 2.7;
-    }
-
-h2 {
-    color: #66cc99;
-    text-align: center;
-    }
-
-h4 {
-    color: #66cc99;
-    text-align: center;
-    font-weight: bold;
-    line-height: 1.5;
     }
 
 body {
@@ -40,14 +53,46 @@ body {
     line-height: 1.5;
 }
 
-.container {
-    body: #595959;
+a {
+    color: #66cc99; !important;
+    font-weight: bold;
 }
 
-.box {
-    padding: 2%;
-    margin: 2%;
-    background-color: #e6e6e6;
+a:hover {
+  color:#8ab1f5;
+}
+
+table {
+  border: 1px solid#595959;
+  margin: 2%;
+}
+
+th {
+  border: 1px solid#595959;
+  padding: 2%;
+  text-align:center;
+  font-weight: normal;
+}
+
+td {
+  border: 1px solid#595959;
+  padding: 2%;
+}
+
+#nav {
+  font-weight: bold;
+}
+
+table#table1 {
+    width:50%;
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+.home {
+  font-weight: bold;
+  padding: 1%;
+  margin: 1%
 }
 
 @media (min-width: 500px) { 
@@ -55,61 +100,62 @@ body {
 body { 
 background-color: 255, 255, 255; 
 } 
-
 } 
 
 @media (max-width: 499px) { 
 body { 
 background-color: blue; 
 } 
-
 } 
+
 </style>
 
     <body>
 
-<h1>Secrets of a Solo Traveller</h1>
-        
-<p>Come on in from the cold search engines, take a seat. I'm Denise, recovering SEO specialist and marketer on a software engineering career change path.</p>
-
-<p>I'm an avid solo traveller and love nothing more to take off alone with my little backpack. So in lieu of small talk, allow me to share some of my favourite bars.</p>
-
-<p>Below is a small selection of late-night hidden gems in cities I've travelled to. I highly recommend craning your neck around their doors if you're in the neighbourhood.</p>
-
-<p>Shh! Don't tell anyone - let's keep them hidden : )</p>
-
-<div class="container">
-<div class="row">
-
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 box">
-     <h4>Don't say Beetlejuice in Minsk</h4>
+        <div id="nav"><ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="minsk.html">Minsk</a></li>
+          <li><a href="lyon.html">Lyon</a></li>
+          <li><a href="budapest.html">Budapest</a></li>
+          <li><a href="berlin.html">Berlin</a></li>
+          <li><a href="belgrade.html">Belgrade</a></li>
+          <li><a href="hamburg.html">Hamburg</a></li>
+      </ul>
     </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 box">
-     <h4>Drink with Locals in Lyon's Rebel Heart</h4>
-    </div>
+<h1>Swing out at Berlin's Best Hidden Bar</h1>
+      
+<p>Kreuzberg is pegged as Berlin's party district, with good reason. </p>
+<p>Nestled in it's frenetic heart is a bar hidden behind a black door. If you manage to find it and squeeze inside, you'll have to swing, rather than sit.</p> 
+<p>Old wooden tables are flanked by swings suspended from the ceiling. If you're feeling adventurous, climb up into a wooden box, also hanging by nothing but rope.</p>
+<p>Drinks are dirt-cheap, the opening hours and liberal to say the least and the door man is a Liverpool fan. What more could you want!?</p>
 
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 box">
-     <h4>Get Ruined in Red in Budapest</h4>
-    </div>
-
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 box">
-    <h4>Swing out at Berlin's Best Hidden Bar</h4>
-    </div>
-
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 box">
-    <h4>Belgrade's Boat Parties Start at Midnight</h4>
-    <p>Someone burst into the hostel behind me and shouted "boat party! We're leaving in ten." Ludicrous. I'd just arrived. It was past midnight. I hadn't unpacked. Did I go? Abso-fuckin-lutely.</p>
-    </div>
-
-    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 box">
-    <h4>Make yourself at Haus in Hamburg's Schanze</h4>
-    <p>Say nein to Reeperbahn; when it comes to partying with an edge, neighbouring district Sternschanze can't be missed.</p>
-    </div>
-  </div>  
+<div id="pic">
+<img src="berlin.jpg" width="50%" height="auto" align="center" style="margin: 2% 2%">
 </div>
-<p>Thanks for stopping by. If you like this, then visit my blog <a href="https://www.travelartcoffee.com">travel.art.coffee</a>for more thoughts and tips on my three favourite things in life.</p>
-    </body>
 
+
+<table id="table1">
+  <tr>
+    <th>Address</th>
+    <th>Adalbertstraße 4, 10999 Berlin, Germany.</th>
+  </tr>
+  <tr>
+    <td>Opening Hours</td>
+    <td>Who knows?!</td>
+  </tr>
+  <tr>
+    <td>Social</td>
+    <td><a href="https://www.facebook.com/multilayerladen/">Facebook</a><br>
+        <a href="https://www.instagram.com/multilayerladen/">Instagram</a><br>
+        <a href="https://twitter.com/multilayerladen?lang=en">Twitter</a><br>
+    </td>
+  </tr>
+</table>
+
+  <button class="home"><a href="index.html">Take Me Home!</a></button>
+
+</body>
 
 </html>
+
